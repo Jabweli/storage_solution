@@ -23,6 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.variable} font-poppins antialiased`}>
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
